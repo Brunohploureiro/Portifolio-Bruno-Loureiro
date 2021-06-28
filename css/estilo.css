@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.bg-bruno{
+    height: 100vh;
+    align-items: center;
+    background: linear-gradient(45deg, #5AD91F, #6DB360, #4AC74A, #2F7D39);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.img-social{
+    width: 3rem;
+    height: auto;
+}
+
+.img-information{
+    width: 2rem;
+    height: auto;
+}
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px){
+    body{
+        overflow: auto;
+    }
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) {}
+
+/* Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) {}
+
+/* Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) {}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) {}
