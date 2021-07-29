@@ -9,4 +9,3 @@ Portifólio de competências e habilidades do Bruno Loureiro
 
 08/06 - Foi desenvolvido a página inicial do projeto, bem como configurado o GitPages
 
-28/07
